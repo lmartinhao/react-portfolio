@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400;800&display=swap');
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font: 300 11px/1.4 'Source Code Pro', monospace;
+  color: #444;
+  background: #2d1243;
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
