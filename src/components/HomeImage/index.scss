@@ -1,0 +1,39 @@
+.logo-container {
+  z-index: 0;
+  width: 400px;
+  height: 609px;
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+  transform-style: preserve-3d;
+  animation: jackInTheBox 1s 1.8s forwards;
+  animation-delay: 1s;
+  display: inline;
+}
+
+.main-image {
+  width: 60%;
+  animation: bounce 1s 1.8s forwards;
+  animation-delay: 1s;
+  margin-left: 25%;
+}
+
+.sec-image {
+  width: 30%;
+  animation: bounce 2s 2s forwards;
+  animation-delay: 1s;
+}
+
+#mouse {
+  margin-bottom: -20%;
+  rotate: (0.05turn);
+}
+
+#headphone {
+  margin-left: 85%;
+  margin-top: -20%;
+  rotate: (0.04turn);
+}

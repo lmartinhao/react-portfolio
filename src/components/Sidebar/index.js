@@ -1,13 +1,13 @@
-import { Link } from 'react-router-dom';
-import './index.scss';
-import Logo from '../../assets/images/logo.png';
-import { NavLink } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom'
+import './index.scss'
+import Logo from '../../assets/images/logo.png'
+import { NavLink } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 
 const Sidebar = () => (

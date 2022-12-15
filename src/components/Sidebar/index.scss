@@ -87,8 +87,4 @@ ul {
 .icon:hover {
   transform: rotate(360deg);
   transition: all 0.45s ease-in-out;
-
-  &::after {
-    transform: scale(1.2);
-  }
 }
