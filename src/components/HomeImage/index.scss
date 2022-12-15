@@ -9,21 +9,21 @@
   left: auto;
   margin: auto;
   transform-style: preserve-3d;
-  animation: jackInTheBox 1s 1.8s forwards;
+  animation: jackInTheBox 1s 0.3s forwards;
   animation-delay: 1s;
   display: inline;
 }
 
 .main-image {
   width: 60%;
-  animation: bounce 1s 1.8s forwards;
+  animation: tada 1s 1.8s forwards;
   animation-delay: 1s;
   margin-left: 25%;
 }
 
 .sec-image {
   width: 30%;
-  animation: bounce 2s 2s forwards;
+  animation: tada 2s 2s forwards;
   animation-delay: 1s;
 }
 

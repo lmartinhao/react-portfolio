@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faCode } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
@@ -19,10 +20,13 @@ const Sidebar = () => (
       <NavLink exact="true" activeclassname="active" className="icon" to="/">
         <FontAwesomeIcon icon={faHome} color="#2d1243" />
       </NavLink>
-      <NavLink exact="true" activeclassname="active" className="icon" to="/about">
+      <NavLink exact="true" activeclassname="active" className="icon" to="/sobre">
         <FontAwesomeIcon icon={faUser} color="#2d1243" />
       </NavLink>
-      <NavLink exact="true" activeclassname="active" className="icon" to="/contact">
+      <NavLink exact="true" activeclassname="active" className="icon" to="/projetos">
+        <FontAwesomeIcon icon={faCode} color="#2d1243" />
+      </NavLink>
+      <NavLink exact="true" activeclassname="active" className="icon" to="/contato">
         <FontAwesomeIcon icon={faEnvelope} color="#2d1243" />
       </NavLink>
     </nav>
