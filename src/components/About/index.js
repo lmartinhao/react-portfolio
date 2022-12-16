@@ -1,6 +1,8 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 const Sobre = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -27,20 +29,25 @@ const Sobre = () => {
             />
           </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus arcu vel diam porttitor fermentum. Curabitur ut dolor non enim rutrum congue. Morbi sagittis tellus eget tincidunt sagittis. Mauris eget nulla dictum, sagittis tellus ac, ornare nunc. Aenean in ligula enim. Nullam erat ex, feugiat et lacus ut, ultrices egestas lectus. Nunc ullamcorper in sem bibendum fermentum. Morbi egestas erat at lectus tristique semper.
+          <a className="text-link" href="https://drive.google.com/file/d/1B-EqOw1M1zFgi4b6KMp-uCnl6EqCuUyA/view?usp=sharing" target="_blank" rel="noopener noreferrer">Currículo (pt-br)</a> | <a className="text-link" href="https://drive.google.com/file/d/18B_LXv4M0OiqSJGxNXn9h5XFpF8zWIyx/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume (en)</a>
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus arcu vel diam porttitor fermentum. Curabitur ut dolor non enim rutrum congue. Morbi sagittis tellus eget tincidunt sagittis. Mauris eget nulla dictum, sagittis tellus ac, ornare nunc. Aenean in ligula enim. Nullam erat ex, feugiat et lacus ut, ultrices egestas lectus. Nunc ullamcorper in sem bibendum fermentum. Morbi egestas erat at lectus tristique semper.
+          <FontAwesomeIcon icon={faCoffee} color="#fff" /> <strong>Desenvolvedora fullstack </strong>com facilidade em ruby on rails, além de um pézinho no front-end e UX Design!
+            Aqui ao lado você encontra as linguagens, tools e libraries que eu tenho mais familiaridade, mas já adianto que sou super esforçada para aprender coisas novas e profundar o que eu já tenho conhecimento!
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus arcu vel diam porttitor fermentum. Curabitur ut dolor non enim rutrum congue. Morbi sagittis tellus eget tincidunt sagittis. Mauris eget nulla dictum, sagittis tellus ac, ornare nunc. Aenean in ligula enim. Nullam erat ex, feugiat et lacus ut, ultrices egestas lectus. Nunc ullamcorper in sem bibendum fermentum. Morbi egestas erat at lectus tristique semper.
+            Antes de fazer a migração para dev, construí uma carreira sólida em CX, o que me proporcionou muita experiência em suporte e atenção ao usuário, além da gestão de pessoas.
+            Minhas soft skills incluem colaboração, comunicação não violenta, mediação de conflitos, pensamento estratégico voltado para o negócio e maturidade para tomada de decisões.
+          </p>
+          <p>
+            Tenho experiência em startups, inclusive as que estão passando/ vão passar por hypergrowth (tks <strong>Nubank</strong> e <strong>Kavak</strong> ♥), e espero poder levar minhas habilidades para uma primeira posição como dev.
           </p>
         </div>
         <div className='card-zone'>
           <h1 className='title-sign text-center'>
-            Habilidades
+            Skills
           </h1>
-            <div className='cards'>
+          <div className='cards'>
             <div className='card'>
               <div class='card-icon'>
                 <i class="devicon-html5-plain"></i>
