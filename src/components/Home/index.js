@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import Image from '../HomeImage'
@@ -40,11 +39,10 @@ const Home = () => {
           idx={30} />
           </h1>
           <h2>Fullstack dev | Ruby on rails enthusiast | React newbie</h2>
-          <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+          <Link to="/contato" className='flat-button'>CONTATO</Link>
         </div>
       <Image />
       </div>
-      <Loader type="pacman" />
     </>
   )
 }
