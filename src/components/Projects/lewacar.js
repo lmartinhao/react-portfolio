@@ -1,4 +1,7 @@
 import './index.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'
 
 const Lewacar = () => {
 
@@ -17,8 +20,11 @@ const Lewacar = () => {
         <div className='proj-text'>
           E-commerce fictício que simula a compra e venda de caronas para pontos turísticos famosos, com possibilidade de pagamento por Pix integrado ao sistema.
         </div>
-      </div>
-      <div className='tag-box'>
+        <div className='proj-stats'>
+          <FontAwesomeIcon icon={faCircleCheck} color="#52b788" /> Deployed |
+        </div>
+
+        <div className='tag-box'>
           <div className='proj-tag'>
             Ruby
           </div>
@@ -35,6 +41,8 @@ const Lewacar = () => {
             SASS
           </div>
         </div>
+      </div>
+      <a className="stats-link" href="https://github.com/lmartinhao/rails-lewacar" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
     </div>
   )
 }

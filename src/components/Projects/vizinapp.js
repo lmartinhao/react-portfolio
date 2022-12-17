@@ -1,4 +1,7 @@
 import './index.scss'
+import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Vizinapp = () => {
 
@@ -15,7 +18,10 @@ const Vizinapp = () => {
           <a className="proj-link" href="https://vizinapp.herokuapp.com/" target="_blank" rel="noopener noreferrer">visite o site</a>
         </div>
         <div className='proj-text'>
-          Comunicação e gestão em condomínios residenciais. A aplicação possui 2 interfaces (uma para administradores e outra para residentes), permitindo interação leve e eficiente entre os moradores, uso organizado das áreas comuns e acesso rápido a informações e documentos relevantes.
+          Comunicação e gestão em condomínios. A aplicação possui 2 interfaces (admin ou residente), permitindo interação leve e eficiente entre os moradores, uso organizado das áreas comuns e acesso rápido a informações e documentos relevantes.
+        </div>
+        <div className='proj-stats'>
+          <FontAwesomeIcon icon={faCircleCheck} color="#52b788" /> Deployed |
         </div>
         <div className='tag-box'>
           <div className='proj-tag'>
@@ -37,6 +43,7 @@ const Vizinapp = () => {
             SASS
           </div>
         </div>
+        <a className="stats-link" href="https://github.com/lmartinhao/vizinapp" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
       </div>
     </div>
   )
