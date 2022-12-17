@@ -166,15 +166,15 @@
 }
 
 .title-sign {
-  margin-left: -20%;
-  margin-bottom: 0;
+  margin-left: -10%;
+  margin-bottom: -5%;
   background: #b178ff;
   max-width: fit-content;
   color: white;
   padding: 10px;
   border-radius: 20px;
   text-transform: uppercase;
-  animation: bounce 2s 1s;
+  animation: bounce 3s 1s;
   rotate: -0.045turn;
 
   &:hover {

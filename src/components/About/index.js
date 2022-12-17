@@ -37,7 +37,7 @@ const Sobre = () => {
           </p>
           <p>
             Antes de fazer a migração para dev, construí uma carreira sólida em CX, o que me proporcionou muita experiência em suporte e atenção ao usuário, além da gestão de pessoas.
-            Minhas soft skills incluem colaboração, comunicação não violenta, mediação de conflitos, pensamento estratégico voltado para o negócio e maturidade para tomada de decisões.
+            Minhas soft skills incluem colaboração, comunicação não violenta, atenção aos detalhes, mediação de conflitos, pensamento estratégico voltado para o negócio e maturidade para tomada de decisões.
           </p>
           <p>
             Tenho experiência em startups, inclusive as que estão passando/ vão passar por hypergrowth (tks <strong>Nubank</strong> e <strong>Kavak</strong> ♥), e espero poder levar minhas habilidades para uma primeira posição como dev.

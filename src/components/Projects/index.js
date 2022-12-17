@@ -1,6 +1,14 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faHandPointRight } from '@fortawesome/free-solid-svg-icons';
+import Vizinapp from './vizinapp';
+import Lewacar from './lewacar';
+import Planner from './planner';
+import Portfolio from './portfolio';
+import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
 
 const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -18,57 +26,34 @@ const Projects = () => {
   }, [])
 
   return (
-    <div className='container about-page'>
+    <div className='container proj-page'>
         <div className='text-zone'>
           <h1>
             <AnimatedLetters letterClass={letterClass}
-              strArray={['D', 'e', 's', 't', 'a', 'q', 'u', 'e', 's']}
+              strArray={['P', 'r', 'o', 'j', 'e', 't', 'o', 's']}
               idx={15}
             />
           </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus arcu vel diam porttitor fermentum. Curabitur ut dolor non enim rutrum congue. Morbi sagittis tellus eget tincidunt sagittis. Mauris eget nulla dictum, sagittis tellus ac, ornare nunc. Aenean in ligula enim. Nullam erat ex, feugiat et lacus ut, ultrices egestas lectus. Nunc ullamcorper in sem bibendum fermentum. Morbi egestas erat at lectus tristique semper.
+          Mais do meu <a className="text-link" href="https://github.com/lmartinhao" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="text-link" icon={faGithub} color="#fff" />GitHub</a>
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus arcu vel diam porttitor fermentum. Curabitur ut dolor non enim rutrum congue. Morbi sagittis tellus eget tincidunt sagittis. Mauris eget nulla dictum, sagittis tellus ac, ornare nunc. Aenean in ligula enim. Nullam erat ex, feugiat et lacus ut, ultrices egestas lectus. Nunc ullamcorper in sem bibendum fermentum. Morbi egestas erat at lectus tristique semper.
+            Me ensinaram que <strong>sempre vale a pena se você estiver aprendendo</strong>, então eu busco sempre tentar algo novo. Minha última aventura foi com React para fazer este portifolio!
+            Aqui ao lado você encontra os projetos maiores aos quais tenho mes dedicado <FontAwesomeIcon icon={faHandPointRight} color="#fff" />
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus arcu vel diam porttitor fermentum. Curabitur ut dolor non enim rutrum congue. Morbi sagittis tellus eget tincidunt sagittis. Mauris eget nulla dictum, sagittis tellus ac, ornare nunc. Aenean in ligula enim. Nullam erat ex, feugiat et lacus ut, ultrices egestas lectus. Nunc ullamcorper in sem bibendum fermentum. Morbi egestas erat at lectus tristique semper.
+            <FontAwesomeIcon icon={faCircleInfo} color="#fff" /> Você encontra informações úteis para o uso das aplicações no read.me dos projetos no GitHub, estão linkados nos cards.
           </p>
         </div>
         <div className='card-zone'>
           <h1 className='title-sign text-center'>
-            Projetos
+            Destaques
           </h1>
           <div className='cards'>
-            <div className='proj-card'>
-              <div class='card-icon'>
-                <i class="devicon-html5-plain"></i>
-              </div>
-              {'\n'}
-              HTML 5
-            </div>
-            <div className='proj-card'>
-              <div class='card-icon'>
-                <i class="devicon-css3-plain"></i>
-              </div>
-              {'\n'}
-              CSS3
-            </div>
-            <div className='proj-card'>
-              <div class='card-icon'>
-                <i class="devicon-javascript-plain"></i>
-              </div>
-              {'\n'}
-              JavaScript
-            </div>
-            <div className='proj-card'>
-              <div class='card-icon'>
-                <i class="devicon-typescript-plain"></i>
-              </div>
-              {'\n'}
-              TypeScript
-            </div>
+            <Vizinapp />
+            <Lewacar />
+            <Portfolio />
+            <Planner />
           </div>
         </div>
     </div>
