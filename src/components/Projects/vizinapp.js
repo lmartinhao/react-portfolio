@@ -1,7 +1,8 @@
 import './index.scss'
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faPersonDigging } from '@fortawesome/free-solid-svg-icons';
 
 const Vizinapp = () => {
 
@@ -21,7 +22,7 @@ const Vizinapp = () => {
           Comunicação e gestão em condomínios. A aplicação possui 2 interfaces (admin ou residente), permitindo interação leve e eficiente entre os moradores, uso organizado das áreas comuns e acesso rápido a informações e documentos relevantes.
         </div>
         <div className='proj-stats'>
-          <FontAwesomeIcon icon={faCircleCheck} color="#52b788" /> Deployed |
+          <FontAwesomeIcon icon={faCircleCheck} color="#52b788" /> Deployed | <FontAwesomeIcon icon={faPersonDigging} color="#DE8F6E" /> Finished
         </div>
         <div className='tag-box'>
           <div className='proj-tag'>

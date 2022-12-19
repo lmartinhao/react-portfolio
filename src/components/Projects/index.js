@@ -9,6 +9,9 @@ import Lewacar from './lewacar';
 import Planner from './planner';
 import Portfolio from './portfolio';
 import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
+import Landing from './landing-page';
+import Watch from './watch-list';
+import Pong from './pong';
 
 const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -27,35 +30,38 @@ const Projects = () => {
 
   return (
     <div className='container proj-page'>
-        <div className='text-zone'>
-          <h1>
-            <AnimatedLetters letterClass={letterClass}
-              strArray={['P', 'r', 'o', 'j', 'e', 't', 'o', 's']}
-              idx={15}
-            />
-          </h1>
-          <p>
+      <div className='text-zone'>
+        <h1>
+          <AnimatedLetters letterClass={letterClass}
+            strArray={['P', 'r', 'o', 'j', 'e', 't', 'o', 's']}
+            idx={15}
+          />
+        </h1>
+        <p>
           Mais do meu <a className="text-link" href="https://github.com/lmartinhao" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="text-link" icon={faGithub} color="#fff" />GitHub</a>
-          </p>
-          <p>
-            Me ensinaram que <strong>sempre vale a pena se você estiver aprendendo</strong>, então eu busco sempre tentar algo novo. Minha última aventura foi com React para fazer este portifolio!
-            Aqui ao lado você encontra os projetos maiores aos quais tenho mes dedicado <FontAwesomeIcon icon={faHandPointRight} color="#fff" />
-          </p>
-          <p>
-            <FontAwesomeIcon icon={faCircleInfo} color="#fff" /> Você encontra informações úteis para o uso das aplicações no read.me dos projetos no GitHub, estão linkados nos cards.
-          </p>
+        </p>
+        <p>
+          Me ensinaram que <strong>sempre vale a pena se você estiver aprendendo</strong>, então eu busco sempre tentar algo novo. Minha última aventura foi com React para fazer este portfolio!
+          Aqui ao lado você encontra os projetos maiores aos quais tenho me dedicado <FontAwesomeIcon icon={faHandPointRight} color="#fff" />
+        </p>
+        <p>
+          <FontAwesomeIcon icon={faCircleInfo} color="#fff" /> Você encontra informações úteis para o uso das aplicações no read.me dos projetos no GitHub, estão linkados nos cards.
+        </p>
+      </div>
+      <h1 className='title-sign text-center'>
+        Destaques
+      </h1>
+      <div className='card-zone'>
+        <div className='cards'>
+          <Vizinapp />
+          <Lewacar />
+          <Portfolio />
+          <Watch />
+          <Landing />
+          <Planner />
+          <Pong />
         </div>
-        <div className='card-zone'>
-          <h1 className='title-sign text-center'>
-            Destaques
-          </h1>
-          <div className='cards'>
-            <Vizinapp />
-            <Lewacar />
-            <Portfolio />
-            <Planner />
-          </div>
-        </div>
+      </div>
     </div>
   )
 }

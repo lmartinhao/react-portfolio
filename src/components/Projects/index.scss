@@ -16,6 +16,8 @@ $color-text: white;
     width: 50%;
     vertical-align: middle;
     max-height: 90%;
+    overflow: hidden;
+    overflow-y: scroll;
 
     .cards {
       display: flex;
@@ -24,7 +26,7 @@ $color-text: white;
     }
 
     .proj-card {
-      height: 240px;
+      height: 250px;
       width: 230px;
       color: #2d1242;
       font-size: 11px;
@@ -56,7 +58,33 @@ $color-text: white;
         animation-delay: 1.4s;
       }
 
+      &:nth-of-type(5) {
+        background: #fee5de;
+        animation-delay: 1.5s;
+      }
+
+      &:nth-of-type(6) {
+        background: #fee5de;
+        animation-delay: 1.6s;
+      }
+
+      &:nth-of-type(7) {
+        background: #fee5de;
+        animation-delay: 1.7s;
+      }
+
+      &:nth-of-type(8) {
+        background: #fee5de;
+        animation-delay: 1.8s;
+      }
+
+      &:nth-of-type(9) {
+        background: #fee5de;
+        animation-delay: 1.9s;
+      }
+
     }
+
   }
 
   .text-zone {
@@ -104,16 +132,19 @@ $color-text: white;
 }
 
 .title-sign {
-  margin-left: -10%;
-  margin-bottom: -5%;
+  margin-left: 44%;
+  margin-top: .8%;
   background: #b178ff;
   max-width: fit-content;
+  max-height: 30px;
   color: white;
   padding: 10px;
   border-radius: 20px;
   text-transform: uppercase;
   animation: bounce 3s 1s;
   rotate: -0.045turn;
+  position: absolute;
+  z-index: 1;
 
   &:hover {
     animation: tada 1s;
@@ -217,15 +248,51 @@ $color-text: white;
 }
 
 .proj-stats {
-
+  font-size: 9px;
+  font-weight: 600;
 }
 
 .stats-link {
   text-decoration: none;
   font-size: 30px;
-  top: 46%;
+  top: 42%;
   margin-left: 79px;
   position: absolute;
+  z-index: 4;
+
+  &:hover {
+    color: #b178ff;
+  }
+
+  &:active {
+    color: #FE93E2;
+  }
+}
+
+.stats-link-sec {
+  text-decoration: none;
+  font-size: 30px;
+  top: 91%;
+  margin-left: 79px;
+  position: absolute;
+  z-index: 4;
+
+  &:hover {
+    color: #b178ff;
+  }
+
+  &:active {
+    color: #FE93E2;
+  }
+}
+
+.stats-link-trd {
+  text-decoration: none;
+  font-size: 30px;
+  top: 140%;
+  margin-left: 79px;
+  position: absolute;
+  z-index: 4;
 
   &:hover {
     color: #b178ff;

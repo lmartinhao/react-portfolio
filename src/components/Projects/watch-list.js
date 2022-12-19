@@ -5,7 +5,7 @@ import { faPersonDigging } from '@fortawesome/free-solid-svg-icons';
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 
 
-const Planner = () => {
+const Watch = () => {
 
   return (
     <div className='proj-card'>
@@ -14,23 +14,26 @@ const Planner = () => {
           <i className="devicon-rails-plain"></i>
         </div>
         <div className='proj-title'>
-          $Planner
+          Watch List
         </div>
         <div >
           <a className="proj-link-inactive" href="#" target="_blank" rel="noopener noreferrer">visite o site</a>
         </div>
         <div className='proj-text'>
-          E-commerce fictício que simula a compra e venda de passeios para pontos turísticos famosos, com possibilidade de pagamento por Pix integrado ao sistema.
+          Web page para construção de listas de filmes, onde os visitantes podem fazer comentários e avaliações (em sistema de estrelas) sobre as listas.
         </div>
         <div className='proj-stats'>
-          <FontAwesomeIcon icon={faCircleXmark} color="#E87461" /> Structuring | <FontAwesomeIcon icon={faPersonDigging} color="#DE8F6E" /> Working on schema
+          <FontAwesomeIcon icon={faCircleXmark} color="#E87461" /> Coding | <FontAwesomeIcon icon={faPersonDigging} color="#DE8F6E" /> Working on models
         </div>
         <div className='tag-box'>
           <div className='proj-tag'>
-            React
+            Ruby
           </div>
           <div className='proj-tag'>
-            JavaScript
+            Rails
+          </div>
+          <div className='proj-tag'>
+            CSS
           </div>
           <div className='proj-tag'>
             HTML
@@ -39,13 +42,14 @@ const Planner = () => {
             SASS
           </div>
           <div className='proj-tag'>
-            CSS
+            JavaScript
           </div>
         </div>
 
       </div>
+      <a className="stats-link-sec" href="https://github.com/lmartinhao/rails-ever-watch-lists" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
     </div>
   )
 }
 
-export default Planner
+export default Watch

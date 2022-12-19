@@ -33,7 +33,7 @@ const Sobre = () => {
           </p>
           <p>
           <FontAwesomeIcon icon={faCoffee} color="#fff" /> <strong>Desenvolvedora fullstack </strong>com facilidade em ruby on rails, além de um pézinho no front-end e UX Design!
-            Aqui ao lado você encontra as linguagens, tools e libraries que eu tenho mais familiaridade, mas já adianto que sou super esforçada para aprender coisas novas e profundar o que eu já tenho conhecimento!
+            Aqui ao lado você encontra as linguagens, tools, frameworks e libraries que eu tenho mais familiaridade, mas já adianto que sou super esforçada para aprender coisas novas e aprofundar o que eu já tenho conhecimento!
           </p>
           <p>
             Antes de fazer a migração para dev, construí uma carreira sólida em CX, o que me proporcionou muita experiência em suporte e atenção ao usuário, além da gestão de pessoas.
@@ -43,10 +43,10 @@ const Sobre = () => {
             Tenho experiência em startups, inclusive as que estão passando/ vão passar por hypergrowth (tks <strong>Nubank</strong> e <strong>Kavak</strong> ♥), e espero poder levar minhas habilidades para uma primeira posição como dev.
           </p>
         </div>
+        <h1 className='title-sign-skill text-center'>
+          Skills
+        </h1>
         <div className='card-zone'>
-          <h1 className='title-sign text-center'>
-            Skills
-          </h1>
           <div className='cards'>
             <div className='card'>
               <div class='card-icon'>

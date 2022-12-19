@@ -1,7 +1,8 @@
 import './index.scss'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'
+import { faPersonDigging } from '@fortawesome/free-solid-svg-icons';
 
 const Lewacar = () => {
 
@@ -21,7 +22,7 @@ const Lewacar = () => {
           E-commerce fictício que simula a compra e venda de caronas para pontos turísticos famosos, com possibilidade de pagamento por Pix integrado ao sistema.
         </div>
         <div className='proj-stats'>
-          <FontAwesomeIcon icon={faCircleCheck} color="#52b788" /> Deployed |
+          <FontAwesomeIcon icon={faCircleCheck} color="#52b788" /> Deployed | <FontAwesomeIcon icon={faPersonDigging} color="#DE8F6E" /> Working on style
         </div>
 
         <div className='tag-box'>

@@ -5,7 +5,7 @@ import { faPersonDigging } from '@fortawesome/free-solid-svg-icons';
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 
 
-const Planner = () => {
+const Pong = () => {
 
   return (
     <div className='proj-card'>
@@ -14,38 +14,27 @@ const Planner = () => {
           <i className="devicon-rails-plain"></i>
         </div>
         <div className='proj-title'>
-          $Planner
+          Pong
         </div>
         <div >
           <a className="proj-link-inactive" href="#" target="_blank" rel="noopener noreferrer">visite o site</a>
         </div>
         <div className='proj-text'>
-          E-commerce fictício que simula a compra e venda de passeios para pontos turísticos famosos, com possibilidade de pagamento por Pix integrado ao sistema.
+          Minha primeira experiência em JavaScript, é uma releitura de construção do famoso jogo Pong utilizando o p5.js.
         </div>
         <div className='proj-stats'>
-          <FontAwesomeIcon icon={faCircleXmark} color="#E87461" /> Structuring | <FontAwesomeIcon icon={faPersonDigging} color="#DE8F6E" /> Working on schema
+          <FontAwesomeIcon icon={faCircleXmark} color="#E87461" /> Undeployed | <FontAwesomeIcon icon={faPersonDigging} color="#DE8F6E" /> Finished
         </div>
         <div className='tag-box'>
           <div className='proj-tag'>
-            React
-          </div>
-          <div className='proj-tag'>
             JavaScript
-          </div>
-          <div className='proj-tag'>
-            HTML
-          </div>
-          <div className='proj-tag'>
-            SASS
-          </div>
-          <div className='proj-tag'>
-            CSS
           </div>
         </div>
 
       </div>
+      <a className="stats-link-trd" href="https://github.com/lmartinhao/pong" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
     </div>
   )
 }
 
-export default Planner
+export default Pong

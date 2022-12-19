@@ -1,7 +1,8 @@
 import './index.scss'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'
+import { faPersonDigging } from '@fortawesome/free-solid-svg-icons'
 
 const Portfolio = () => {
 
@@ -18,10 +19,10 @@ const Portfolio = () => {
           <a className="proj-link" href="https://lewacar.herokuapp.com/" target="_blank" rel="noopener noreferrer">visite o site</a>
         </div>
         <div className='proj-text'>
-          E-commerce fictício que simula a compra e venda de passeios para pontos turísticos famosos, com possibilidade de pagamento por Pix integrado ao sistema.
+          Este portfolio que você está vendo foi minha primeira aventura com React! Queria algo que fosse mais dinâmico e divertido, por isso o uso da biblioteca Animate.css foi um ponto chave. Eu amei o resultado ♡
         </div>
         <div className='proj-stats'>
-          <FontAwesomeIcon icon={faCircleCheck} color="#52b788" /> Deployed |
+          <FontAwesomeIcon icon={faCircleCheck} color="#52b788" /> Deployed | <FontAwesomeIcon icon={faPersonDigging} color="#DE8F6E" /> Always working on it
         </div>
 
         <div className='tag-box'>

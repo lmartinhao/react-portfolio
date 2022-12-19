@@ -165,17 +165,20 @@
   }
 }
 
-.title-sign {
-  margin-left: -10%;
-  margin-bottom: -5%;
+.title-sign-skill {
+  margin-left: 62%;
+  margin-top: 4%;
   background: #b178ff;
   max-width: fit-content;
+  max-height: 30px;
   color: white;
   padding: 10px;
   border-radius: 20px;
   text-transform: uppercase;
-  animation: bounce 3s 1s;
+  animation: bounce 3s 3s;
   rotate: -0.045turn;
+  position: absolute;
+  z-index: 1;
 
   &:hover {
     animation: tada 1s;
