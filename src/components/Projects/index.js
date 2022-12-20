@@ -12,6 +12,7 @@ import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
 import Landing from './landing-page';
 import Watch from './watch-list';
 import Pong from './pong';
+import Freeway from './freeway';
 
 const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -59,6 +60,7 @@ const Projects = () => {
           <Watch />
           <Landing />
           <Planner />
+          <Freeway />
           <Pong />
         </div>
       </div>
