@@ -39,7 +39,7 @@ const Home = () => {
           idx={30} />
           </h1>
           <h2>Fullstack dev | Ruby on rails enthusiast | React newbie</h2>
-          <Link to="/contato" className='flat-button'>CONTATO</Link>
+          <Link to="/contato" className='flat-button'>Contato</Link>
         </div>
       <Image />
       </div>
