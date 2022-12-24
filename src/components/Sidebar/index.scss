@@ -88,3 +88,34 @@ ul {
   transform: rotate(360deg);
   transition: all 0.45s ease-in-out;
 }
+
+@media screen and (max-width: 480px) {
+  .nav-bar {
+    width: 100%;
+    min-height: 90px;
+    height: 90px;
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+    display: inline;
+    text-align: center;
+  }
+
+  nav .icon {
+    position: static;
+    padding: 20px;
+  }
+
+  nav a {
+    position: static;
+    display: inline-block;
+    font-size: 35px;
+
+  }
+
+  .logo, ul {
+    display: none;
+  }
+}

@@ -61,3 +61,10 @@ $color-text: white;
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .flat-button {
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+}

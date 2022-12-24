@@ -51,8 +51,6 @@
     letter-spacing: 2px;
     animation: fadeIn 1s 1.8s backwards;
   }
-
-
 }
 
 .top-tags {
@@ -108,5 +106,45 @@ p {
 
   &:nth-of-type(4) {
     animation-delay: 1.4s;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home-page .text-zone {
+    margin-top: 200px;
+    width: 100%;
+    position: static;
+    display: block;
+  }
+
+  .home-page h1 {
+    font-size: 40px;
+    padding: 10px;
+    padding-top: 130px;
+    padding-left: 30px;
+
+    &:before {
+      font-size: 18px;
+      position: absolute;
+      margin-top: -27px;
+      left: 15px;
+    }
+
+    &:after {
+      font-size: 18px;
+      position: absolute;
+      margin-top: 24px;
+      margin-left: 10px;
+      animation: fadeIn 1s 5s backwards;
+    }
+  }
+
+  .home-page h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .tags, .top-tags {
+    display: none;
   }
 }

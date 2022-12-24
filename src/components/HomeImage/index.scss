@@ -37,3 +37,20 @@
   margin-top: -20%;
   rotate: (0.04turn);
 }
+
+@media screen and (max-width: 480px) {
+  .sec-image {
+    display: none;
+  }
+
+  .main-image {
+    margin-top: -190px;
+    margin-left: 130px;
+  }
+
+  .logo-container {
+    width: 100%;
+    display: block;
+    position: static;
+  }
+}
