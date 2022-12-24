@@ -33,7 +33,7 @@ const Sobre = () => {
           </p>
           <p>
           <FontAwesomeIcon icon={faCoffee} color="#fff" /> <strong>Desenvolvedora fullstack </strong>com facilidade em ruby on rails, além de um pézinho no front-end e UX Design!
-            Aqui ao lado você encontra as linguagens, tools, frameworks e libraries que eu tenho mais familiaridade, mas já adianto que sou super esforçada para aprender coisas novas e aprofundar o que eu já tenho conhecimento!
+            Nesta página você encontra as linguagens, tools, frameworks e libraries que eu tenho mais familiaridade, mas já adianto que sou super esforçada para aprender coisas novas e aprofundar o que eu já tenho conhecimento!
           </p>
           <p>
             Antes de fazer a migração para dev, construí uma carreira sólida em CX, o que me proporcionou muita experiência em suporte e atenção ao usuário, além da gestão de pessoas.

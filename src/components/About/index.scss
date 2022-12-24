@@ -184,3 +184,38 @@
     animation: tada 1s;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .about-page .card-zone .card {
+    width: 50px;
+    height: 50px;
+    font-size: 0;
+
+    .card-icon {
+      padding-top: 5px;
+      font-size: 32px;
+      margin-bottom: -12px;
+    }
+  }
+
+  .about-page .text-zone p {
+    font-size: 9.5px;
+    text-align: justify;
+  }
+
+  .title-sign-skill {
+    margin-top: 145px;
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .about-page .text-zone h1 {
+    margin-top: -40px;
+    font-size: 30px;
+
+    &::after {
+      margin-top: 13px;
+      animation: fadeIn 1s 2.2s backwards;
+    }
+  }
+}
