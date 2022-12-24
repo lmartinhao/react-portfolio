@@ -199,8 +199,9 @@
   }
 
   .about-page .text-zone p {
-    font-size: 9.5px;
+    font-size: 10.5px;
     text-align: justify;
+    margin-left: -40px;
   }
 
   .title-sign-skill {
@@ -210,11 +211,13 @@
   }
 
   .about-page .text-zone h1 {
+    margin-left: -30px;
     margin-top: -40px;
-    font-size: 30px;
+    font-size: 35px;
+    margin-bottom: 40px;
 
     &::after {
-      margin-top: 13px;
+      margin-top: 19px;
       animation: fadeIn 1s 2.2s backwards;
     }
   }
