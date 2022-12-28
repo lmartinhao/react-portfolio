@@ -118,23 +118,23 @@ p {
   }
 
   .home-page h1, .contact-page h1 {
-    font-size: 40px;
+    font-size: 25px;
     padding: 10px;
-    padding-top: 130px;
-    padding-left: 30px;
+    padding-top: 50px;
+    padding-left: 20px;
 
     &:before {
-      font-size: 18px;
+      font-size: 14px;
       position: absolute;
-      margin-top: -27px;
-      left: 15px;
+      margin-top: -20px;
+      left: 10px;
     }
 
     &:after {
-      font-size: 18px;
+      font-size: 14px;
       position: absolute;
-      margin-top: 24px;
-      margin-left: 10px;
+      margin-top: 13px;
+      margin-left: 5px;
       animation: fadeIn 1s 5s backwards;
     }
   }
