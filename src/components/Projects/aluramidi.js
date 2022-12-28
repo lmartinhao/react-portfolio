@@ -2,10 +2,10 @@ import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faPersonDigging } from '@fortawesome/free-solid-svg-icons';
-import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
+import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 
 
-const Planner = () => {
+const AluraMidi = () => {
 
   return (
     <div className='proj-card'>
@@ -14,21 +14,18 @@ const Planner = () => {
           <i className="devicon-rails-plain"></i>
         </div>
         <div className='proj-title'>
-          $Planner
+          AluraMidi
         </div>
         <div >
-          <a className="proj-link-inactive" href="#" target="_blank" rel="noopener noreferrer">visite o site</a>
+          <a className="proj-link" href="https://aluramidi-two.vercel.app/" target="_blank" rel="noopener noreferrer">visite o site</a>
         </div>
         <div className='proj-text'>
-          Aplicação para organização financeira que ajuda o usuário a calcular a quantia de dinheiro que deveria aplicar em cada setor do dia a dia, a depender da entrada e saída de ativos.
+          Esta é uma releitura de construção do AluraMidi, onde é simulada uma bateria com os sons produzidos por um teclado através de JavaScript.
         </div>
         <div className='proj-stats'>
-          <FontAwesomeIcon icon={faCircleXmark} color="#E87461" /> Structuring | <FontAwesomeIcon icon={faPersonDigging} color="#DE8F6E" /> Working on schema
+          <FontAwesomeIcon icon={faCircleCheck} color="#E87461" /> Deployed | <FontAwesomeIcon icon={faPersonDigging} color="#DE8F6E" /> Adding scores system
         </div>
         <div className='tag-box'>
-          <div className='proj-tag'>
-            React
-          </div>
           <div className='proj-tag'>
             JavaScript
           </div>
@@ -36,16 +33,14 @@ const Planner = () => {
             HTML
           </div>
           <div className='proj-tag'>
-            SASS
-          </div>
-          <div className='proj-tag'>
             CSS
           </div>
         </div>
 
       </div>
+      <a className="stats-link-sec" href="https://github.com/lmartinhao/aluramidi" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
     </div>
   )
 }
 
-export default Planner
+export default AluraMidi

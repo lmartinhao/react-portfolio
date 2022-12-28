@@ -16,7 +16,7 @@ const Portfolio = () => {
           Portfolio
         </div>
         <div >
-          <a className="proj-link" href="https://lewacar.herokuapp.com/" target="_blank" rel="noopener noreferrer">visite o site</a>
+          <a className="proj-link" href="https://lolamartinhao.vercel.app/" target="_blank" rel="noopener noreferrer">visite o site</a>
         </div>
         <div className='proj-text'>
           Este portfolio que você está vendo foi minha primeira aventura com React! Queria algo que fosse mais dinâmico e divertido, por isso o uso da biblioteca Animate.css foi um ponto chave. Eu amei o resultado ♡

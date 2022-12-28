@@ -5,7 +5,7 @@ import { faPersonDigging } from '@fortawesome/free-solid-svg-icons';
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 
 
-const Watch = () => {
+const Brigaderia = () => {
 
   return (
     <div className='proj-card'>
@@ -14,26 +14,23 @@ const Watch = () => {
           <i className="devicon-rails-plain"></i>
         </div>
         <div className='proj-title'>
-          Watch List
+          Brigaderia
         </div>
         <div >
           <a className="proj-link-inactive" href="#" target="_blank" rel="noopener noreferrer">visite o site</a>
         </div>
         <div className='proj-text'>
-          Web page para construção de listas de filmes, onde os visitantes podem fazer comentários e avaliações (em sistema de estrelas) sobre as listas.
+          Aplicação para organização financeira que ajuda o usuário a calcular a quantia de dinheiro que deveria aplicar em cada setor do dia a dia, a depender da entrada e saída de ativos.
         </div>
         <div className='proj-stats'>
-          <FontAwesomeIcon icon={faCircleXmark} color="#E87461" /> Coding | <FontAwesomeIcon icon={faPersonDigging} color="#DE8F6E" /> Working on models
+          <FontAwesomeIcon icon={faCircleXmark} color="#E87461" /> Structuring | <FontAwesomeIcon icon={faPersonDigging} color="#DE8F6E" /> Working on schema
         </div>
         <div className='tag-box'>
           <div className='proj-tag'>
-            Ruby
+            React
           </div>
           <div className='proj-tag'>
-            Rails
-          </div>
-          <div className='proj-tag'>
-            CSS
+            JavaScript
           </div>
           <div className='proj-tag'>
             HTML
@@ -42,14 +39,14 @@ const Watch = () => {
             SASS
           </div>
           <div className='proj-tag'>
-            JavaScript
+            CSS
           </div>
         </div>
 
       </div>
-      <a className="stats-link-trd" href="https://github.com/lmartinhao/rails-ever-watch-lists" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+      <a className="stats-link-sec" href="https://github.com/lmartinhao/rails-brigaderia" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
     </div>
   )
 }
 
-export default Watch
+export default Brigaderia

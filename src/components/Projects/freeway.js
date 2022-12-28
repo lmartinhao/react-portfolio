@@ -2,7 +2,7 @@ import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faPersonDigging } from '@fortawesome/free-solid-svg-icons';
-import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
+import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 
 
 const Freeway = () => {
@@ -23,7 +23,7 @@ const Freeway = () => {
           Esta é uma releitura de construção do jogo Freeway, onde usando as setas do teclado você ganha pontos ao ajudar a atravessar um gatinho em uma rodovia.
         </div>
         <div className='proj-stats'>
-          <FontAwesomeIcon icon={faCircleXmark} color="#E87461" /> Deployed | <FontAwesomeIcon icon={faPersonDigging} color="#DE8F6E" /> Adding scores system
+          <FontAwesomeIcon icon={faCircleCheck} color="#E87461" /> Deployed | <FontAwesomeIcon icon={faPersonDigging} color="#DE8F6E" /> Adding scores system
         </div>
         <div className='tag-box'>
           <div className='proj-tag'>

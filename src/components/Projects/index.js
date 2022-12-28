@@ -6,13 +6,14 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faHandPointRight } from '@fortawesome/free-solid-svg-icons';
 import Vizinapp from './vizinapp';
 import Lewacar from './lewacar';
-import Planner from './planner';
+import Brigaderia from './brigaderia';
 import Portfolio from './portfolio';
 import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
 import Landing from './landing-page';
 import Watch from './watch-list';
 import Pong from './pong';
 import Freeway from './freeway';
+import AluraMidi from './aluramidi';
 
 const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -57,11 +58,12 @@ const Projects = () => {
           <Vizinapp />
           <Lewacar />
           <Portfolio />
-          <Watch />
+          <Brigaderia />
           <Landing />
-          <Planner />
+          <AluraMidi />
           <Freeway />
           <Pong />
+          <Watch />
         </div>
       </div>
     </div>
