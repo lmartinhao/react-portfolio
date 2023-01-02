@@ -118,25 +118,30 @@ $color-text: white;
 
 @media screen and (max-width: 480px) {
 
+  .contact-page .text-zone {
+    width: 100%;
+  }
+
   .contact-page .text-zone h1 {
-    font-size: 45px;
-    margin-top: -120px;
-    margin-left: 40px;
+    margin-left: -30px;
+    font-size: 25px;
+    margin-bottom: 20px;
 
     &:before {
-      margin-left: 40px;
-      margin-top: -18px;
+      margin-left: -30px;
+      font-size: 14px;
     }
 
     &:after {
-      margin-left: 15px;
-      margin-top: 28px;
-      animation: fadeIn 1s 2s backwards;
+      font-size: 14px;
+      margin-top: 12px;
+      margin-left: 10px;
+      animation: fadeIn 1s 2.2s backwards;
     }
   }
 
   .contact-page .text-zone p {
-    margin: 30px;
+    width: 100%;
     text-align: justify;
   }
 
