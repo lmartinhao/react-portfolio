@@ -44,10 +44,10 @@ const Projects = () => {
         </p>
         <p>
           Me ensinaram que <strong>sempre vale a pena se você estiver aprendendo</strong>, então eu busco sempre tentar algo novo. Minha última aventura foi com React para fazer este portfolio!
-          Aqui ao lado você encontra os projetos maiores aos quais tenho me dedicado <FontAwesomeIcon icon={faHandPointRight} color="#fff" />
+          Nesta página você encontra os projetos maiores aos quais tenho me dedicado.
         </p>
         <p>
-          <FontAwesomeIcon icon={faCircleInfo} color="#fff" /> Você encontra informações úteis para o uso das aplicações no read.me dos projetos no GitHub, estão linkados nos cards.
+          <FontAwesomeIcon icon={faCircleInfo} color="#fff" /> Você encontra informações úteis para o uso das aplicações no read.me dos projetos no GitHub, estes estão linkados nos cards.
         </p>
       </div>
       <h1 className='title-sign text-center'>

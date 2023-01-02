@@ -7,7 +7,6 @@ $color-text: white;
   display: flex;
   justify-content: space-between;
 
-
   .card-zone {
     position: absolute;
     left: 48%;
@@ -82,9 +81,7 @@ $color-text: white;
         background: #fee5de;
         animation-delay: 1.9s;
       }
-
     }
-
   }
 
   .text-zone {
@@ -300,5 +297,69 @@ $color-text: white;
 
   &:active {
     color: #FE93E2;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .proj-page .card-zone {
+    margin-top: 80%;
+    margin-left: -50%;
+  }
+
+  .proj-page .card-zone {
+    width: 400px;
+  }
+
+  .proj-page .text-zone {
+    width: 300px;
+  }
+
+  .proj-page .card-zone .proj-card {
+    width: 300px;
+    height: 215px;
+
+    .card-icon {
+      padding-top: 5px;
+      font-size: 35px;
+      margin-bottom: -12px;
+    }
+  }
+
+  .proj-page .text-zone p {
+    font-size: 10px;
+    text-align: justify;
+    margin-left: -35px;
+    width: 220px;
+  }
+
+  .title-sign {
+    display: none;
+  }
+
+  .proj-page .text-zone h1 {
+    margin-left: -30px;
+    margin-top: -180px;
+    font-size: 25px;
+
+    &:before {
+      margin-left: -10px;
+      font-size: 14px;
+    }
+
+    &:after {
+      font-size: 14px;
+      margin-top: 19px;
+      animation: fadeIn 1s 2.2s backwards;
+    }
+  }
+
+  .proj-link, .proj-link-inactive {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .stats-link, .stats-link-sec, .stats-link-trd {
+    position: static;
+    margin: 90%;
   }
 }
