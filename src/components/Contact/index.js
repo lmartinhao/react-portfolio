@@ -43,8 +43,11 @@ const Contact = () => {
             idx={15}
           />
         </h1>
-        <p>
+        <p className='normal-size-contact'>
           Preparei esse forms pra facilitar o seu contato! Se preferir, também pode me chamar no <a className="text-link" href="https://www.linkedin.com/in/lola-martinhao/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ♥
+        </p>
+        <p className='mobile-size-contact'>
+          Me manda um email em: <a className='meu-email' href="mailto:lola.martinhao@gmail.com?subject=contato">lola.martinhao@gmail.com</a>Se preferir, também pode me chamar no <a className="text-link" href="https://www.linkedin.com/in/lola-martinhao/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ♥
         </p>
         <div className='contact-form'>
           <form ref={refForm} onSubmit={sendEmail}>

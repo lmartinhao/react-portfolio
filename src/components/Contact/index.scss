@@ -116,10 +116,17 @@ $color-text: white;
   }
 }
 
-@media screen and (max-width: 480px) {
+.mobile-size-contact {
+  display: none;
+}
 
+@media screen and (max-width: 480px) {
   .contact-page .text-zone {
     width: 75%;
+    height: 30%;
+    position: static;
+    margin-top: 120px;
+    margin-left: 15%;
   }
 
   .contact-page .text-zone h1 {
@@ -145,4 +152,28 @@ $color-text: white;
     text-align: justify;
   }
 
+  .contact-form {
+    display: none;
+  }
+
+  .mobile-size-contact {
+    display: grid;
+    margin-top: 30px;
+  }
+
+  .meu-email {
+    background-color: #00DBD9;
+    text-decoration: none;
+    font-weight: bold;
+    color: #60428a;
+    width: fit-content;
+    padding: 4px;
+    margin: 20px auto;
+    border-radius: 3px;
+    font-size: 20px;
+  }
+
+  .normal-size-contact {
+    display: none;
+  }
 }
