@@ -119,13 +119,12 @@ $color-text: white;
 @media screen and (max-width: 480px) {
 
   .contact-page .text-zone {
-    width: 100%;
+    width: 75%;
   }
 
   .contact-page .text-zone h1 {
     margin-left: -30px;
     font-size: 25px;
-    margin-bottom: 20px;
 
     &:before {
       margin-left: -30px;
@@ -141,7 +140,8 @@ $color-text: white;
   }
 
   .contact-page .text-zone p {
-    width: 100%;
+    font-size: 10px;
+    margin-left: -5%;
     text-align: justify;
   }
 
