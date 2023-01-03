@@ -32,7 +32,7 @@ const Sobre = () => {
           <a className="text-link" href="https://drive.google.com/file/d/1B-EqOw1M1zFgi4b6KMp-uCnl6EqCuUyA/view?usp=sharing" target="_blank" rel="noopener noreferrer">Currículo (pt-br)</a> | <a className="text-link" href="https://drive.google.com/file/d/18B_LXv4M0OiqSJGxNXn9h5XFpF8zWIyx/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume (en)</a>
           </p>
           <p>
-          <FontAwesomeIcon icon={faCoffee} color="#fff" /> <strong>Desenvolvedora fullstack </strong>com facilidade em ruby on rails, além de um pézinho no front-end e UX Design!
+          <FontAwesomeIcon icon={faCoffee} color="#fff" /> <strong>Desenvolvedora fullstack </strong>com facilidade em ruby on rails, além de um pezinho no front-end e UX Design!
             Nesta página você encontra as linguagens, tools, frameworks e libraries que eu tenho mais familiaridade, mas já adianto que sou super esforçada para aprender coisas novas e aprofundar o que eu já tenho conhecimento!
           </p>
           <p>
