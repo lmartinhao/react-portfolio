@@ -40,7 +40,7 @@ const Sobre = () => {
             Minhas soft skills incluem colaboração, comunicação não violenta, atenção aos detalhes, mediação de conflitos, pensamento estratégico voltado para o negócio e maturidade para tomada de decisões.
           </p>
           <p>
-            Tenho experiência em startups, inclusive as que estão passando/ vão passar por hypergrowth (tks <strong>Nubank</strong> e <strong>Kavak</strong> ♥), e espero poder levar minhas habilidades para uma primeira posição como dev.
+            Tenho experiência em startups, inclusive as que estão passando/ vão passar por hypergrowth &#40;tks <strong>Nubank</strong> e <strong>Kavak</strong> ♥&#41;, e espero poder levar minhas habilidades para uma primeira posição como dev.
           </p>
         </div>
         <h1 className='title-sign-skill text-center'>
