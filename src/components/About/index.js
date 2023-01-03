@@ -29,7 +29,7 @@ const Sobre = () => {
             />
           </h1>
           <p>
-          <a className="text-link" href="https://drive.google.com/file/d/1B-EqOw1M1zFgi4b6KMp-uCnl6EqCuUyA/view?usp=sharing" target="_blank" rel="noopener noreferrer">Currículo (pt-br)</a> | <a className="text-link" href="https://drive.google.com/file/d/18B_LXv4M0OiqSJGxNXn9h5XFpF8zWIyx/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume (en)</a>
+          <a className="text-link" href="https://drive.google.com/file/d/1ep3ULdLJGFOK_BsYs-PXsbM7SVEww7y4/view?usp=sharing" target="_blank" rel="noopener noreferrer">Currículo (pt-br)</a> | <a className="text-link" href="https://drive.google.com/file/d/18B_LXv4M0OiqSJGxNXn9h5XFpF8zWIyx/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume (en)</a>
           </p>
           <p>
           <FontAwesomeIcon icon={faCoffee} color="#fff" /> <strong>Desenvolvedora fullstack </strong>com facilidade em ruby on rails, além de um pezinho no front-end e UX Design!
