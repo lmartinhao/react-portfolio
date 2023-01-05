@@ -3,10 +3,9 @@ import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faHandPointRight } from '@fortawesome/free-solid-svg-icons';
 import Vizinapp from './vizinapp';
 import Lewacar from './lewacar';
-import Brigaderia from './brigaderia';
+import ReactBurger from './ReactBurger';
 import Portfolio from './portfolio';
 import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
 import Landing from './landing-page';
@@ -58,7 +57,7 @@ const Projects = () => {
           <Vizinapp />
           <Lewacar />
           <Portfolio />
-          <Brigaderia />
+          <ReactBurger />
           <Landing />
           <AluraMidi />
           <Freeway />

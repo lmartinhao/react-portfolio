@@ -5,7 +5,7 @@ import { faPersonDigging } from '@fortawesome/free-solid-svg-icons';
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 
 
-const Brigaderia = () => {
+const ReactBurger = () => {
 
   return (
     <div className='proj-card'>
@@ -14,20 +14,23 @@ const Brigaderia = () => {
           <i className="devicon-rails-plain"></i>
         </div>
         <div className='proj-title'>
-          Brigaderia
+          React Burger
         </div>
         <div >
-          <a className="proj-link-inactive" href="#" target="_blank" rel="noopener noreferrer">visite o site</a>
+          <a className="proj-link" href="https://react-burger-lmartinhao.vercel.app/" target="_blank" rel="noopener noreferrer">visite o site</a>
         </div>
         <div className='proj-text'>
-          Aplicação para organização financeira que ajuda o usuário a calcular a quantia de dinheiro que deveria aplicar em cada setor do dia a dia, a depender da entrada e saída de ativos.
+          React app no modelo SPA que simula um pedido online em uma hamburgueria fictícia. Os itens adicionados no carrinho modificam o contador.
         </div>
         <div className='proj-stats'>
-          <FontAwesomeIcon icon={faCircleXmark} color="#E87461" /> Structuring | <FontAwesomeIcon icon={faPersonDigging} color="#DE8F6E" /> Working on schema
+          <FontAwesomeIcon icon={faCircleXmark} color="#E87461" /> Coding | <FontAwesomeIcon icon={faPersonDigging} color="#DE8F6E" /> Working on cart
         </div>
         <div className='tag-box'>
           <div className='proj-tag'>
             React
+          </div>
+          <div className='proj-tag'>
+            Vite
           </div>
           <div className='proj-tag'>
             JavaScript
@@ -36,17 +39,14 @@ const Brigaderia = () => {
             HTML
           </div>
           <div className='proj-tag'>
-            SASS
-          </div>
-          <div className='proj-tag'>
             CSS
           </div>
         </div>
 
       </div>
-      <a className="stats-link-sec" href="https://github.com/lmartinhao/rails-brigaderia" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+      <a className="stats-link-sec" href="https://github.com/lmartinhao/react-burger" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
     </div>
   )
 }
 
-export default Brigaderia
+export default ReactBurger
