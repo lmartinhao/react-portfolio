@@ -29,10 +29,10 @@ const Sobre = () => {
             />
           </h1>
           <p>
-          <a className="text-link" href="https://drive.google.com/file/d/1ep3ULdLJGFOK_BsYs-PXsbM7SVEww7y4/view?usp=sharing" target="_blank" rel="noopener noreferrer">Currículo (pt-br)</a> | <a className="text-link" href="https://drive.google.com/file/d/18B_LXv4M0OiqSJGxNXn9h5XFpF8zWIyx/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume (en)</a>
+          <a className="text-link" href="https://drive.google.com/file/d/1zfyv4ZObYnm-F4cC0HVm-UpZGhoL99ii/view" target="_blank" rel="noopener noreferrer">Currículo (pt-br)</a>
           </p>
           <p>
-          <FontAwesomeIcon icon={faCoffee} color="#fff" /> <strong>Desenvolvedora fullstack </strong>com facilidade em ruby on rails, além de um pezinho no front-end e UX Design!
+          <FontAwesomeIcon icon={faCoffee} color="#fff" /> <strong>Oi! Sou uma desenvolvedora front-end </strong> focada em React com TypeScript, porém também tenho experiência em ruby on rails.
             Nesta página você encontra as linguagens, tools, frameworks e libraries que eu tenho mais familiaridade, mas já adianto que sou super esforçada para aprender coisas novas e aprofundar o que eu já tenho conhecimento!
           </p>
           <p>
@@ -40,7 +40,7 @@ const Sobre = () => {
             Minhas soft skills incluem colaboração, comunicação não violenta, atenção aos detalhes, mediação de conflitos, pensamento estratégico voltado para o negócio e maturidade para tomada de decisões.
           </p>
           <p>
-            Tenho experiência em startups, inclusive as que estão passando/ vão passar por hypergrowth &#40;tks <strong>Nubank</strong> e <strong>Kavak</strong> ♥&#41;, e espero poder levar minhas habilidades para uma primeira posição como dev.
+            Tenho experiência em startups, inclusive as que estão passando/ vão passar por hypergrowth &#40;tks <strong>Nubank</strong> e <strong>Kavak</strong> ♥&#41;. E aí, vamos trabalhar juntos? :&#41;
           </p>
         </div>
         <h1 className='title-sign-skill text-center'>
