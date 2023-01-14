@@ -252,9 +252,9 @@ $color-text: white;
 .stats-link {
   text-decoration: none;
   font-size: 30px;
-  top: 42%;
   margin-left: 79px;
   position: absolute;
+  top: 36%;
   z-index: 4;
 
   &:hover {
@@ -269,9 +269,9 @@ $color-text: white;
 .stats-link-sec {
   text-decoration: none;
   font-size: 30px;
-  top: 91%;
   margin-left: 79px;
   position: absolute;
+  top: 78%;
   z-index: 4;
 
   &:hover {
@@ -286,9 +286,9 @@ $color-text: white;
 .stats-link-trd {
   text-decoration: none;
   font-size: 30px;
-  top: 140%;
   margin-left: 79px;
   position: absolute;
+  top: 120%;
   z-index: 4;
 
   &:hover {
