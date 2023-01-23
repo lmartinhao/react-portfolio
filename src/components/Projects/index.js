@@ -8,19 +8,6 @@ import { Project } from './Project';
 
 const projects = [
   {
-    id: 1,
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg',
-    title: 'Freeway',
-    url: 'https://javascript-freeway.vercel.app/',
-    text: 'Reprodução do jogo Freeway em HTML, JavaScript e CSS',
-    deployed: true,
-    update: 'Finished',
-    tags: [
-      'html', 'css', 'javascript'
-    ],
-    github: 'https://github.com/lmartinhao/javascript-freeway'
-  },
-  {
     id: 2,
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg',
     title: 'AluraMIDI',
@@ -114,15 +101,28 @@ const projects = [
   {
     id: 9,
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
-    title: 'Dream Tasks',
-    url: '',
-    text: 'Task management criado em React com TypeScript com animações',
+    title: 'Bubble Tasks',
+    url: 'https://bubble-tasks.vercel.app/',
+    text: 'Task management criado em React com TypeScript e animações feitas em CSS',
     deployed: false,
-    update: 'Coding',
+    update: 'Finished',
     tags: [
       'react', 'typescrip', 'html', 'css module'
     ],
-    github: 'https://github.com/lmartinhao'
+    github: 'https://github.com/lmartinhao/dream-task-react'
+  },
+  {
+    id: 10,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+    title: 'Setup Habits',
+    url: 'https://setup-habits.vercel.app/',
+    text: 'App de tracking de hábitos disponível em vs web e mobile com API própria',
+    deployed: false,
+    update: 'Deploying server',
+    tags: [
+      'react', 'typescrip', 'node', 'react native', 'tailwind'
+    ],
+    github: 'https://github.com/lmartinhao/dream-task-react'
   },
 ]
 
@@ -166,18 +166,19 @@ const Projects = () => {
       </h1>
       <div className='card-zone'>
         <div className='cards'>
-          {projects.slice(0).reverse().map(project => (
-            <Project
-              key={project.id}
-              icon={project.icon}
-              title={project.title}
-              url={project.url}
-              text={project.text}
-              deployed={project.deployed}
-              update={project.update}
-              tags={project.tags}
-              github={project.github}
-            />
+          {projects.slice(0).reverse().map((project, i) => (
+            <div key={`${project.id} - ${i}`}>
+              <Project
+                icon={project.icon}
+                title={project.title}
+                url={project.url}
+                text={project.text}
+                deployed={project.deployed}
+                update={project.update}
+                tags={project.tags}
+                github={project.github}
+              />
+            </div>
           )
         )}
         </div>
