@@ -122,7 +122,33 @@ const projects = [
     tags: [
       'react', 'typescrip', 'node', 'react native', 'tailwind'
     ],
-    github: 'https://github.com/lmartinhao/dream-task-react'
+    github: 'https://github.com/lmartinhao/setup'
+  },
+  {
+    id: 11,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+    title: 'Ignite Timer',
+    url: 'https://lola-ignite-timer.vercel.app/',
+    text: 'Sistema de timer tipo pomodoro com dados armazenados em local storage',
+    deployed: true,
+    update: 'Finished',
+    tags: [
+      'react', 'typescrip', 'styled components', 'react hook form', 'local storage'
+    ],
+    github: 'https://github.com/lmartinhao/02-ignite-timer'
+  },
+  {
+    id: 12,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+    title: 'Coffee App',
+    url: '',
+    text: 'Sistema delivery de café com sacola de compras e forms de endereço para entrega',
+    deployed: false,
+    update: 'Coding',
+    tags: [
+      'react', 'typescrip', 'styled components', 'react hook form', 'local storage'
+    ],
+    github: 'https://github.com/lmartinhao?tab=repositories'
   },
 ]
 
@@ -166,21 +192,23 @@ const Projects = () => {
       </h1>
       <div className='card-zone'>
         <div className='cards'>
-          {projects.slice(0).reverse().map((project, i) => (
-            <div key={`${project.id} - ${i}`}>
-              <Project
-                icon={project.icon}
-                title={project.title}
-                url={project.url}
-                text={project.text}
-                deployed={project.deployed}
-                update={project.update}
-                tags={project.tags}
-                github={project.github}
-              />
-            </div>
-          )
-        )}
+          {projects.map(project => {
+            return (
+              <div key={project.id.toString()}>
+                <Project
+                  icon={project.icon}
+                  title={project.title}
+                  url={project.url}
+                  text={project.text}
+                  deployed={project.deployed}
+                  update={project.update}
+                  tags={project.tags}
+                  github={project.github}
+                  />
+                </div>
+            )
+          }).reverse()
+        }
         </div>
       </div>
     </div>
