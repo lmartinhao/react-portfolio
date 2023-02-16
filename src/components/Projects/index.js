@@ -26,7 +26,7 @@ const projects = [
     title: 'Landing page',
     url: 'https://landing-page-sweetestclub.netlify.app/',
     text: 'Landing page com formulário de cadastro em HTML e CSS',
-    deployed: false,
+    deployed: true,
     update: 'Finished',
     tags: [
       'html', 'css'
