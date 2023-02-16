@@ -37,12 +37,12 @@ const projects = [
     id: 4,
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain.svg',
     title: 'Le WaCar',
-    url: 'https://react-todo-list-lmartinhao.vercel.app/',
+    url: '',
     text: 'App em Ruby on rails com Devise, Pundit e dados no PostgreSQL',
-    deployed: true,
+    deployed: false,
     update: 'App Style',
     tags: [
-      'ruby', 'rails', 'html', 'sass', 'javascrip'
+      'ruby', 'rails', 'html', 'sass', 'javascrip', 'postgresql'
     ],
     github: 'https://github.com/lmartinhao/rails-lewacar'
   },
@@ -52,7 +52,7 @@ const projects = [
     title: 'React Burger',
     url: 'https://react-burger-lmartinhao.vercel.app/',
     text: 'Aplicação fictícia de carrinho de compras',
-    deployed: false,
+    deployed: true,
     update: 'Componente do carrinho',
     tags: [
       'react', 'javascript', 'html', 'css'
@@ -63,12 +63,12 @@ const projects = [
     id: 6,
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain.svg',
     title: 'vizinAPP',
-    url: 'https://vizinapp.herokuapp.com/',
+    url: '',
     text: 'App em Ruby on rails com Devise, Active Admin e dados no PostgreSQL',
-    deployed: true,
+    deployed: false,
     update: 'Ajustar admin style',
     tags: [
-      'ruby', 'rails', 'html', 'sass', 'javascrip', 'figma'
+      'ruby', 'rails', 'html', 'sass', 'javascrip', 'figma', 'postgresql'
     ],
     github: 'https://github.com/lmartinhao/vizinapp'
   },
@@ -141,12 +141,12 @@ const projects = [
     id: 12,
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
     title: 'Coffee App',
-    url: '',
+    url: 'https://coffee-delivery-lmartinhao.vercel.app/',
     text: 'Sistema delivery de café com sacola de compras e forms de endereço para entrega',
-    deployed: false,
-    update: 'Coding context',
+    deployed: true,
+    update: 'Finished',
     tags: [
-      'react', 'typescrip', 'styled components', 'react hook form', 'local storage'
+      'react', 'typescrip', 'styled components', 'context api', 'chakra ui', 'figma'
     ],
     github: 'https://github.com/lmartinhao/coffee-delivery'
   },
