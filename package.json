@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@babel/eslint-parser": "^7.19.1",
+    "@chakra-ui/react": "^2.5.1",
     "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.5",
     "@fortawesome/free-brands-svg-icons": "^6.2.1",

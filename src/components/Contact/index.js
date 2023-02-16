@@ -19,13 +19,10 @@ const Contact = () => {
   }, [])
 
   const sendEmail = (e) => {
-    e.preventDefault()
-
     emailjs.sendForm('service_om2w8mj', 'template_vrjjyao', refForm.current, '9pYbBxJ36tuu3lv7-')
     .then(
       () => {
         alert('Mensagem enviada! Obrigada :)')
-        window.location.reaload(false)
       },
       () => {
         alert('Falha ao enviar, por favor tente novamente')
