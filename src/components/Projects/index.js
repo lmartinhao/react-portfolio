@@ -163,6 +163,19 @@ const projects = [
     ],
     github: 'https://github.com/lmartinhao/multiform'
   },
+  {
+    id: 14,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+    title: 'DT-Money',
+    url: '',
+    text: 'App para controle de finanças, com entradas e saídas e com consumo de API',
+    deployed: false,
+    update: 'Coding',
+    tags: [
+      'react', 'typescrip', 'styled components', 'api'
+    ],
+    github: 'https://github.com/lmartinhao/03-dt-money'
+  },
 ]
 
 const Projects = () => {
