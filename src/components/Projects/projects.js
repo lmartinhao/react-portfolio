@@ -32,7 +32,7 @@ export const projectList = [
     url: '',
     text: 'App em Ruby on rails com Devise, Pundit e dados no PostgreSQL',
     deployed: false,
-    update: 'App Style',
+    update: 'Server undeployed',
     tags: [
       'ruby', 'rails', 'html', 'sass', 'javascrip', 'postgresql'
     ],
@@ -43,7 +43,7 @@ export const projectList = [
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
     title: 'React Burger',
     url: 'https://react-burger-lmartinhao.vercel.app/',
-    text: 'Aplicação fictícia de carrinho de compras',
+    text: 'Aplicação fictícia para cardápio de lanchonete',
     deployed: true,
     update: 'Componente do carrinho',
     tags: [
@@ -58,7 +58,7 @@ export const projectList = [
     url: '',
     text: 'App em Ruby on rails com Devise, Active Admin e dados no PostgreSQL',
     deployed: false,
-    update: 'Ajustar admin style',
+    update: 'Server undeployed',
     tags: [
       'ruby', 'rails', 'html', 'sass', 'javascrip', 'figma', 'postgresql'
     ],
@@ -110,7 +110,7 @@ export const projectList = [
     url: 'https://setup-habits.vercel.app/',
     text: 'App de tracking de hábitos disponível em vs web e mobile com API própria',
     deployed: false,
-    update: 'Deploying server',
+    update: 'Server undeployed',
     tags: [
       'react', 'typescrip', 'node', 'react native', 'tailwind'
     ],
@@ -159,13 +159,26 @@ export const projectList = [
     id: 14,
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
     title: 'DT-Money',
-    url: '',
+    url: 'https://dt-money-lola.vercel.app/',
     text: 'App para controle de finanças, com entradas e saídas e com consumo de API',
+    deployed: true,
+    update: 'Server undeployed',
+    tags: [
+      'react', 'typescrip', 'styled components', 'json-server', 'api'
+    ],
+    github: 'https://github.com/lmartinhao/03-dt-money'
+  },
+  {
+    id: 15,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+    title: 'Github Blog',
+    url: '',
+    text: 'Blog com consumo da API do GitHub para postagem dos artigos',
     deployed: false,
     update: 'Coding',
     tags: [
-      'react', 'typescrip', 'styled components', 'api'
+      'react', 'typescrip', 'styled components', 'json-server', 'api'
     ],
-    github: 'https://github.com/lmartinhao/03-dt-money'
+    github: 'https://github.com/lmartinhao/'
   },
 ]
