@@ -32,7 +32,7 @@ const Sobre = () => {
           <a className="text-link" href="https://drive.google.com/file/d/1aoCv6J4LK6OOyl9VyJYZMHsGxu6aggwr/view?usp=sharing" target="_blank" rel="noopener noreferrer">Currículo (pt-br)</a>
           </p>
           <p>
-          <FontAwesomeIcon icon={faCoffee} color="#fff" /> <strong>Oi! Sou uma desenvolvedora front-end </strong> focada em React com TypeScript, porém também tenho experiência em ruby on rails.
+          <FontAwesomeIcon icon={faCoffee} color="#fff" /> <strong>Oi! Sou uma desenvolvedora front-end </strong> focada em React com TypeScript.
             Nesta página você encontra as linguagens, tools, frameworks e libraries que eu tenho mais familiaridade, mas já adianto que sou super esforçada para aprender coisas novas e aprofundar o que eu já tenho conhecimento!
           </p>
           <p>
