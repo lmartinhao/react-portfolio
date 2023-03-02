@@ -164,7 +164,7 @@ export const projectList = [
     deployed: true,
     update: 'Server undeployed',
     tags: [
-      'react', 'typescrip', 'styled components', 'json-server', 'api'
+      'react', 'typescrip', 'styled components', 'json-server', 'api', 'context api'
     ],
     github: 'https://github.com/lmartinhao/03-dt-money'
   },
@@ -177,7 +177,7 @@ export const projectList = [
     deployed: false,
     update: 'Coding',
     tags: [
-      'react', 'typescrip', 'styled components', 'json-server', 'api'
+      'react', 'typescrip', 'styled components', 'api', 'context api'
     ],
     github: 'https://github.com/lmartinhao/'
   },
