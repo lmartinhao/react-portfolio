@@ -29,7 +29,7 @@ const Sobre = () => {
             />
           </h1>
           <p>
-          <a className="text-link" href="https://drive.google.com/file/d/1aoCv6J4LK6OOyl9VyJYZMHsGxu6aggwr/view?usp=sharing" target="_blank" rel="noopener noreferrer">Currículo (pt-br)</a>
+          <a className="text-link" href="https://drive.google.com/file/d/1Zpt5tMbmmDvV1620f-tLLR0eZ4j221uv/view?usp=share_link" target="_blank" rel="noopener noreferrer">Currículo (pt-br)</a>
           </p>
           <p>
           <FontAwesomeIcon icon={faCoffee} color="#fff" /> <strong>Oi! Sou uma desenvolvedora front-end </strong> focada em React com TypeScript.
