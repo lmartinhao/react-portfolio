@@ -172,13 +172,39 @@ export const projectList = [
     id: 15,
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
     title: 'Github Blog',
-    url: '',
-    text: 'Blog com consumo da API do GitHub para postagem dos artigos',
-    deployed: false,
-    update: 'Coding',
+    url: 'https://lola-github-blog.vercel.app/',
+    text: 'Consumo da API do GitHub para postagem dos artigos com base nas issues do repo',
+    deployed: true,
+    update: 'Finished',
     tags: [
       'react', 'typescrip', 'styled components', 'api', 'context api'
     ],
-    github: 'https://github.com/lmartinhao/'
+    github: ''
+  },
+  {
+    id: 16,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg',
+    title: 'Ignite Shop',
+    url: '',
+    text: 'e-commerce fictício construído no framework next.js',
+    deployed: false,
+    update: 'Coding',
+    tags: [
+      'react', 'typescrip', 'styled components', 'next.js', 'context api'
+    ],
+    github: 'https://github.com/lmartinhao/04-ignite-shop'
+  },
+  {
+    id: 17,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg',
+    title: 'My TabNews',
+    url: '',
+    text: 'Reprodução do TabNews, fórum dinâmico com sistema de recompensas',
+    deployed: false,
+    update: 'Coding',
+    tags: [
+      'react', 'javascript', 'next.js'
+    ],
+    github: 'https://github.com/lmartinhao/clone-tabnews'
   },
 ]
